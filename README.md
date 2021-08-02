@@ -14,3 +14,5 @@ ped_warning_right(): ----> calls gui() with warning code 4. that means to overla
 collision_warning(): ----> calls gui() with warning code 2. that means to overlay center collision warning icon overlay and sound <br>
 cap = cv2.VideoCapture(2) ---> use your camera number here 
                       
+# miscellaneous
+the Arduino code for receiving data using blurtooth module has been provided in folder read_data_arduino
