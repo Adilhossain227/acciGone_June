@@ -3,6 +3,9 @@
 # Folder distribution :<br>
 gui_v3 >> elements_v2[for image repo]<br>
 gui_v3 >> cars_v2.xml,visionary.net_pedestrian_cascade_web_LBP.xml , overtaking_lane_v3.wav[sound]<br>
+# Requirements:
+Python version : 3.6 or above <br> 
+Libraries : numpy , opencv , time, pyglet , datetime , serial <br>
 # Function documentation: <br>
 serverData() ----> Receives data from arduino , seperated into ',' delimeter and stores in respective named variables <br>
 |-----> serverData() utilizes the initialization variable ser. use proper COM port and bauds to start the code. It is recommended to add a try-except if there is no arduino available<br>
